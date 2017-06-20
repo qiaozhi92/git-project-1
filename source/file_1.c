@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 	printf("Hello Git !\n");
 
 	printf("a = %d\n",a);
+	printf("b = %d\n",b);
 	
 	return 0;
 }
