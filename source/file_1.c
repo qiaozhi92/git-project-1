@@ -5,6 +5,7 @@
 int main(int argc, char *argv[])
 {
 	int a = 10;
+	int b = 55;
 	
 	printf("Hello Git !\n");
 
