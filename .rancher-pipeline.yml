@@ -11,5 +11,9 @@ stages:
       buildContext: .
       tag: example/app:v2
       registry: 127.0.0.1:34557
+  - applyYamlConfig:
+      path: ./deployment.yaml
+    env:
+      CICD_IMAGE: example/app:v2
 timeout: 60
 notification: {}
